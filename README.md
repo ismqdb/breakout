@@ -1,5 +1,22 @@
 # Breakout
 
-Project implementing basic "Breakout" game functionalities. Original code was written in mid 2022. 
+```
+Step 1: Clone the Project
 
-A lot of room for improvement: Add textures, add sound, improve collision detection, add levels and reduce the use of heap allocations.
+git clone https://github.com/ismqdb/breakout.git
+cd Breakout
+
+Step 2: Build & Run
+
+Fedora
+mkdir build && cd build
+cmake ..
+make
+./breakout
+
+Windows (PowerShell)
+mkdir build; cd build
+cmake ..
+cmake --build .
+.\breakout.exe
+```
